@@ -128,7 +128,7 @@ doc/              documentación técnica (arquitectura, funcionalidades, códig
 
 Copyright (c) 2026 Nohe Castellanos. Todos los derechos reservados.
 
-Licencia **propietaria gratuita** (EULA, texto completo en [`LICENSE`](LICENSE)). **El código fuente no es público.**
+Licencia **propietaria gratuita** (EULA, texto completo en [`LICENSE`](LICENSE)).
 
 La licencia **permite**:
 - Instalar y usar el plugin gratis, en cualquier cantidad de equipos.
@@ -146,16 +146,3 @@ Además:
 - No recopila ni envía datos personales ni estadísticas de uso.
 - Se rige por las leyes de la República de Guatemala.
 - Incluye la librería estándar de Kotlin, que tiene su propia licencia Apache 2.0 (ver [`NOTICE`](NOTICE)).
-
-### En JetBrains Marketplace
-
-Al subir el plugin, en **License** elige la opción de licencia propia (*Other* / *Custom EULA*), no una de código
-abierto: así **no se pide enlace al código fuente**. Si el formulario pide la URL de la licencia, publica solo el
-texto de `LICENSE` (por ejemplo, en un Gist público o una página propia) y usa ese enlace. Deja vacío el campo
-*Source code URL*.
-
-### Si más adelante publicas el código
-
-Puedes cambiar a Apache 2.0 en una versión nueva: reemplaza `LICENSE` por el texto de Apache 2.0, actualiza `NOTICE`
-y esta sección, sube el código a un repositorio público y en el Marketplace elige *Apache 2.0* con el enlace al
-repositorio. Las versiones ya publicadas con el EULA siguen bajo el EULA.
